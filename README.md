@@ -1,10 +1,22 @@
 # grafana-stack
 
+## Requirements
+
+- Access to AWS S3, and configured credentials
+- Buckets created on S3:
+  - tempo
+  - loki_data
+  - loki_ruler
+
+
+
 ## Setup
 
 ```bash
 docker-compose up -d
 ```
+
+Update values in .env file.
 
 ## Endpoints
 

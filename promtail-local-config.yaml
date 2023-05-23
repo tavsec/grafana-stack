@@ -19,10 +19,4 @@ scrape_configs:
       - source_labels: ['__meta_docker_container_name']
         regex: '/(.*)'
         target_label: 'container'
-  - job_name: laravel-app-1
-    static_configs:
-      - targets: 
-          - localhost
-        labels:
-          __path__: /var/log/laravel/*.log
 
