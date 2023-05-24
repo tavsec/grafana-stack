@@ -9,10 +9,10 @@
   - loki_ruler
 
 
-
 ## Setup
 
-```bash
+```bash 
+cp .env.example .env
 docker-compose up -d
 ```
 
